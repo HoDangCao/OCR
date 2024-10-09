@@ -12,6 +12,6 @@ The information we get:
 - Ordinal number in set: 183/250
 
 ## What's in this project?
-- Using [Tesseract](https://github.com/tesseract-ocr/tesseract) (an open-source OCR engine) or deep learning models (such as `TrOCR`, `LayoutLM`, etc) to recognize and convert text from packaging image.
+- Using [Tesseract](https://github.com/tesseract-ocr/tesseract) (an open-source OCR engine) or deep learning models (such as [TrOCR](https://github.com/microsoft/unilm/tree/master/trocr), [LayoutLM](https://arxiv.org/abs/1912.13318), etc) to recognize and convert text from packaging image.
 
 - Use retrained models (such as [RealESRGAN](https://github.com/xinntao/Real-ESRGAN)) for improving the resolution of the packaging or vision techniques (such as `grayscale`, `edge detection`) to improve OCR performance.
